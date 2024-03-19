@@ -3,7 +3,9 @@
 ## Aufgabenanforderungen
 Die Aufgabenanforderugen können [hier](https://github.com/DeltaGamingCH/M346-CMS-AWS/blob/main/Requirements-M346-CMS.pdf) gefunden werden. 
 
-# Reflexion
+## Dokumentation
+
+## Reflexion
 Das Lösen der Aufgabe empfanden wir als relativ simpel. Hatten aber grosse Schwierigkeiten bei Schritt 2.
 1. Wir rechechierten, welche packets wir brauchen für Apache und Joomla. Anschliessend installierten wir diese sowie das Joomla.zip `/var/www/html`. 
 Wir stiessen beim direkten Empacken des .zips auf einen Fehler, das Berechtigungen fehlten, und mussten uns vor dem Entpacken berechtigungen in `var/www/html` anpassen. Das Unzippen funktionierte anschliessend. 
