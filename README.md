@@ -3,8 +3,9 @@
 ## Aufgabenanforderungen
 Die Aufgabenanforderugen können [hier](https://github.com/DeltaGamingCH/M346-CMS-AWS/blob/main/Requirements-M346-CMS.pdf) gefunden werden. 
 
-#!/bin/bash
 ##Dokumentation
+
+#!/bin/bash
 ### Paketliste aktualisieren und Upgrades installieren
 sudo apt-get update -y
 sudo apt-get upgrade -y
