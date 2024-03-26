@@ -13,6 +13,7 @@ Alles wird für sie aufgesetzt. Falls sie die Instanz wieder herunterfahren woll
 
 ### `sh terminate.sh`
 Das terminate Skript wird sie auffordern die Instanz ID und den Namen der Security Group einzugeben, halten sie diese also bereit.
+<br>
 
 ## Reflexion
 Das Lösen der Aufgabe empfanden wir als relativ simpel, jedoch stießen wir auf große Schwierigkeiten bei Schritt 2.
