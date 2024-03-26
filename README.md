@@ -18,6 +18,12 @@ Alles wird für sie aufgesetzt. Falls sie die Instanz wieder herunterfahren woll
 Das terminate Skript wird sie auffordern, die Instanz ID und den Namen der Security Group einzugeben, halten sie diese also bereit.
 <br>
 
+##Aufgabenverteilung
+
+- ReadMe(Dokumentation & Reflexion), sh.Shell hochladen und überprüfen --> Carina
+- Skript erstellt und auf Funktionalität überprüft --> Nikita
+- Skript erstellt und evtl. Verbesserungen vorgenommen --> Claude
+
 ## Reflexion
 Das Lösen der Aufgabe empfanden wir als relativ simpel, jedoch stießen wir auf große Schwierigkeiten bei Schritt 2.
 
