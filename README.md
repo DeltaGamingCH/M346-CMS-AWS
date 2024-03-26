@@ -6,9 +6,10 @@ Die Aufgabenanforderugen können [hier](https://github.com/DeltaGamingCH/M346-CM
 ## Dokumentation
 
 ## Reflexion
-Das Lösen der Aufgabe empfanden wir als relativ simpel. Hatten aber grosse Schwierigkeiten bei Schritt 2.
-1. Wir rechechierten, welche packets wir brauchen für Apache und Joomla. Anschliessend installierten wir diese sowie das Joomla.zip `/var/www/html`. 
-Wir stiessen beim direkten Empacken des .zips auf einen Fehler, das Berechtigungen fehlten, und mussten uns vor dem Entpacken berechtigungen in `var/www/html` anpassen. Das Unzippen funktionierte anschliessend. 
-2. Unser grösstes Problem war, dass wir nun die Apache Default Seite bekamen, nicht aber auf unsere Joomla Seite zugreifen konnte. 
-Mit viel pobieren, kam mir die Idee die `index.html` Datei zu löschen, mit `sudo rm /var/www/html/index.html`. Dies führte schlussendlich zur gewünschten Lösung. 
-3. Das Skript funktioniert stand jetzt noch nicht, welches beim Initialisieren der EC2-Instanz in User-Data übergeben werden soll. 
+Das Lösen der Aufgabe empfanden wir als relativ simpel, jedoch stießen wir auf große Schwierigkeiten bei Schritt 2.
+
+1. Zunächst recherchierten wir, welche Pakete wir für Apache und Joomla benötigen. Anschließend installierten wir diese sowie das Joomla.zip in `/var/www/html`. Beim direkten Entpacken des ZIP-Archivs stießen wir auf einen Fehler, da die Berechtigungen fehlten. Vor dem Entpacken mussten wir daher die Berechtigungen in `var/www/html` anpassen. Das Entpacken verlief anschließend reibungslos.
+
+2. Unser größtes Problem bestand darin, dass wir nach der Installation die Apache-Standardseite sahen, anstatt auf unsere Joomla-Seite zugreifen zu können. Nach zahlreichen Versuchen kam mir die Idee, die `index.html` Datei zu löschen, was schließlich zur gewünschten Lösung führte. Dies erfolgte mittels `sudo rm /var/www/html/index.html`.
+
+3. Das Skript, welches beim Initialisieren der EC2-Instanz in der User-Data übergeben werden soll, funktioniert bislang noch nicht wie erwartet. Es bedarf weiterer Anpassungen, um die gewünschte Funktionalität zu erreichen.
