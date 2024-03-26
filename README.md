@@ -5,8 +5,6 @@ Die Aufgabenanforderugen können [hier](https://github.com/DeltaGamingCH/M346-CM
 
 ## Dokumentation
 Um die EC2 Instanz mit Joomla zu erstellen führen sie `start.sh` aus.
-
-
 ### Setup
 
 
@@ -17,6 +15,8 @@ Alles wird für sie aufgesetzt. Falls sie die Instanz wieder herunterfahren woll
 #### `sh terminate.sh`
 Das terminate Skript wird sie auffordern, die Instanz ID und den Namen der Security Group einzugeben, halten sie diese also bereit.
 <br>
+
+### Funktionalität
 
 ## Aufgabenverteilung
 
