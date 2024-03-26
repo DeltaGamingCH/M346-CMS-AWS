@@ -3,7 +3,7 @@
 ## Aufgabenanforderungen
 Die Aufgabenanforderugen können [hier](https://github.com/DeltaGamingCH/M346-CMS-AWS/blob/main/Requirements-M346-CMS.pdf) gefunden werden. 
 
-##Dokumentation
+## Dokumentation
 Um die EC2 Instanz mit Joomla zu erstellen führen sie *start.sh* aus.
 *sh start.sh*
 Alles wird für sie aufgesetzt. Falls sie die Instanz wieder herunterfahren wollen, können sie *terminate.sh* ausführen.
