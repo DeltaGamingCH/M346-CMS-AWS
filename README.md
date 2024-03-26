@@ -16,7 +16,13 @@ Alles wird für sie aufgesetzt. Falls sie die Instanz wieder herunterfahren woll
 Das terminate Skript wird sie auffordern, die Instanz ID und den Namen der Security Group einzugeben, halten sie diese also bereit.
 <br>
 
-### Funktionalität
+## Funktionalität
+### user-data.txt:
+Installiert einen Webserver (Apache), eine Datenbank (MySQL) und PHP auf einem Ubuntu-System und lädt dann das Content-Management-System Joomla herunter und installiert es. 
+### start.sh
+Skript erstellt eine EC2-Instanz auf AWS, konfiguriert eine Sicherheitsgruppe, die den Zugriff auf Port 80 von überall erlaubt, und installiert Joomla darauf. Dann wartet es, bis die Installation abgeschlossen ist, und gibt die URL des Servers aus, auf dem Joomla installiert ist.
+### terminate.sh
+Skript fordert die Eingabe der Instanz-ID und des Namens der Sicherheitsgruppe an. Dann beendet es die angegebene EC2-Instanz und wartet, bis die Instanz beendet ist. Anschließend löscht es die angegebene Sicherheitsgruppe.
 
 ## Aufgabenverteilung
 
